@@ -15,10 +15,10 @@ To set up this project, you need the following dependencies:
 
 1. Clone the repository:
    ```bash
-  conda create -n hi_diff python=3.9
-  git clone https://github.com/rohitrrg/image_editing.git
-  cd image_editing
-  pip install -r requirements.txt
+   conda create -n hi_diff python=3.9
+     git clone https://github.com/rohitrrg/image_editing.git
+     cd image_editing
+     pip install -r requirements.txt
 
 
 
