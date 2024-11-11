@@ -1,4 +1,28 @@
 # image_editing
+
+
+# Motion Deblurring using Diffusion Model
+
+## Installation
+
+To set up this project, you need the following dependencies:
+
+- **Python 3.9**  
+- **PyTorch 2.0.0**  
+- **NVIDIA GPU + CUDA** (for faster computation)
+
+### Install Dependencies
+
+1. Clone the repository:
+   ```bash
+  conda create -n hi_diff python=3.9
+  git clone https://github.com/rohitrrg/image_editing.git
+  cd image_editing
+  pip install -r requirements.txt
+
+
+
+
 ### Training
 ![Screenshot from 2024-11-11 06-36-21](https://github.com/user-attachments/assets/0a16d6ec-8b9f-4df0-9d1d-ab5ab343bc25) ![Screenshot from 2024-11-11 06-36-53](https://github.com/user-attachments/assets/80d3451d-acad-42c9-8fc6-1791cede9118)
 
