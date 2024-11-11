@@ -19,6 +19,18 @@ To set up this project, you need the following dependencies:
      git clone https://github.com/rohitrrg/image_editing.git
      cd image_editing
      pip install -r requirements.txt
+   
+### Dataset
+
+This project uses the **GoPro Dataset** for training the deblurring model.
+
+You can download the dataset using the following command:
+
+```bash
+!gdown 1KYmgaQj0LWSCL6ygtXcuBZ6DfJgO09RQ
+
+
+
 
 
 
