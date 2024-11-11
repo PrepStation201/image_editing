@@ -1,7 +1,12 @@
-# image_editing
-
-
 # Motion Deblurring using Diffusion Model
+
+This repository contains the implementation of a motion deblurring model using a **Diffusion-based approach**. The primary goal of this project is to enhance image clarity by removing motion blur caused by camera shake, fast-moving objects, or environmental factors. The model is trained on the **GoPro Dataset** and uses advanced deep learning techniques to recover sharp details from motion-blurred images.
+
+## Objective
+
+- Apply a diffusion-based model to effectively address motion blur in images.
+- Improve the speed and quality of image deblurring.
+- Achieve high fidelity to the original image while reducing artifacts.
 
 ## Installation
 
@@ -11,15 +16,13 @@ To set up this project, you need the following dependencies:
 - **PyTorch 2.0.0**  
 - **NVIDIA GPU + CUDA** (for faster computation)
 
-### Install Dependencies
+### Steps to Install:
 
-1. Clone the repository:
+1. Create and activate a new **conda environment**:
    ```bash
    conda create -n hi_diff python=3.9
-     git clone https://github.com/rohitrrg/image_editing.git
-     cd image_editing
-     pip install -r requirements.txt
-   
+   conda activate hi_diff
+
 ### Dataset
 
 This project uses the **GoPro Dataset** for training the deblurring model.
@@ -27,7 +30,9 @@ This project uses the **GoPro Dataset** for training the deblurring model.
 You can download the dataset using the following command:
 
 ```bash
-!gdown 1KYmgaQj0LWSCL6ygtXcuBZ6DfJgO09RQ
+   !gdown 1KYmgaQj0LWSCL6ygtXcuBZ6DfJgO09RQ
+   !unzip GoPro.zip
+   !rm GoPro.zip
 
 
 
